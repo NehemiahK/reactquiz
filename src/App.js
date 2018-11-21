@@ -14,15 +14,26 @@ class App extends Component {
         questionsAndAnswers:[],
         question:0,
         endGame:false,
-        quizStarted:true
+        quizStarted:false,
+        modalOpen:true
       };
     }
     componentDidMount(){
+      let qa = this.shuffle(questionsandanswers.choices);
+      qa = qa.slice(0,8);
       this.setState({
-        questionsAndAnswers:questionsandanswers.choices,
+        questionsAndAnswers:qa,
         mounted:true
       });
     }
+
+     shuffle(a) {
+      for (let i = a.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [a[i], a[j]] = [a[j], a[i]];
+      }
+      return a;
+  }
 
     incQuestion = () =>{ 
       if(this.state.questionsAndAnswers.length > this.state.question+1){
@@ -40,7 +51,8 @@ class App extends Component {
 
     handleCloseModal = () =>{
       this.setState({
-        quizStarted:false
+        quizStarted:true,
+        modalOpen:false
       })
     }
   
@@ -49,10 +61,10 @@ class App extends Component {
       <div className="App">
 
         {
-          this.state.quizStarted && <QuizStart onClick={this.handleCloseModal}/>
+          (this.state.mounted && this.state.modalOpen) && <QuizStart onClick={this.handleCloseModal}/>
         }
 
-        { this.state.mounted &&
+        { this.state.quizStarted && 
           <QuizWrapper questionsAndAnswers={this.state.questionsAndAnswers[this.state.question]} incQuestion={this.incQuestion} endGame={this.state.endGame} 
           numberOfQuestions={this.state.questionsAndAnswers.length} questionNumber={this.state.question}/>
           }

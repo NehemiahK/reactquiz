@@ -12,6 +12,7 @@ const QuizStart = (props) => {
                 <p>For I'm the famous Sorting Hat.</p>
                 <p>- Questions taken from Pottermore</p>
                 <p>- Point values taken from Reddit</p>
+                <button className='start-quiz' onClick={props.onClick}>Embark!</button>
             </div>
         </div>
     </div>

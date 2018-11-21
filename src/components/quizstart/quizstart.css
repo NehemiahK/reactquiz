@@ -1,7 +1,8 @@
 .quiz-start{
     width: 100%;
+    height:100%;
     margin:0;
-    /* background: #bbbbc7ba; */
+    background: #bbbbc7ba;
     position: absolute;
 }
 .message-content{
@@ -22,4 +23,12 @@
     max-width:400px;
     margin: 5% auto;
     font-size:24px;
+}
+.start-quiz{
+    font-size:20px;
+    width:150px;
+    background: purple;
+    color:white;
+    padding:15px;
+    border-radius: 10px;
 }
