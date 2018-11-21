@@ -1,14 +1,14 @@
 {
-  "main.css": "/reactquiz/static/css/main.025b7d67.chunk.css",
-  "main.js": "/reactquiz/static/js/main.e018fa6c.chunk.js",
-  "main.js.map": "/reactquiz/static/js/main.e018fa6c.chunk.js.map",
+  "main.css": "/reactquiz/static/css/main.1d7710fd.chunk.css",
+  "main.js": "/reactquiz/static/js/main.943285a2.chunk.js",
+  "main.js.map": "/reactquiz/static/js/main.943285a2.chunk.js.map",
   "static/js/1.b30e8610.chunk.js": "/reactquiz/static/js/1.b30e8610.chunk.js",
   "static/js/1.b30e8610.chunk.js.map": "/reactquiz/static/js/1.b30e8610.chunk.js.map",
   "runtime~main.js": "/reactquiz/static/js/runtime~main.74ea799b.js",
   "runtime~main.js.map": "/reactquiz/static/js/runtime~main.74ea799b.js.map",
   "static/media/logo.svg": "/reactquiz/static/media/logo.5d5d9eef.svg",
-  "static/css/main.025b7d67.chunk.css.map": "/reactquiz/static/css/main.025b7d67.chunk.css.map",
+  "static/css/main.1d7710fd.chunk.css.map": "/reactquiz/static/css/main.1d7710fd.chunk.css.map",
   "index.html": "/reactquiz/index.html",
-  "precache-manifest.7d9fe9a62bea6ac5ebfb43ab8e094e92.js": "/reactquiz/precache-manifest.7d9fe9a62bea6ac5ebfb43ab8e094e92.js",
+  "precache-manifest.67a69669b59b2237298290070371a811.js": "/reactquiz/precache-manifest.67a69669b59b2237298290070371a811.js",
   "service-worker.js": "/reactquiz/service-worker.js"
 }
