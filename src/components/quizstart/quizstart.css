@@ -1,0 +1,25 @@
+.quiz-start{
+    width: 100%;
+    margin:0;
+    /* background: #bbbbc7ba; */
+    position: absolute;
+}
+.message-content{
+    position: relative;
+    max-width:400px;
+    max-height: 100%;
+    margin: auto;
+    padding:10px;
+}
+.close-button{
+    position: absolute;
+    right:0;
+}
+.message-wrapper{
+    padding:25px;
+    border-radius:10px;
+    background:white;
+    max-width:400px;
+    margin: 5% auto;
+    font-size:24px;
+}
